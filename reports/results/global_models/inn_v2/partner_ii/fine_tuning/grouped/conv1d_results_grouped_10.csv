@@ -1,0 +1,3 @@
+Category,Company,Data Shape,Timesteps,Features,Model,Cross Validation,Cross Validation Params,RMSE Train,RMSE Train,MAE Train,MAE Train,MAPE Train,MAPE Train,R2 Train,R2 Train,RMSE Test,RMSE Test,MAE Test,MAE Test,MAPE Test,MAPE Test,R2 Test,R2 Test
+,,,,,,,,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+Global Model,partner_ii,"(315, 16)",7,Chemical + Properties CS Less,Conv1D,Out of time Split,"{""Test Size"": 0.2}",2.879524004402652,0.0417162200239047,2.199115999802697,0.03009707852288832,0.052143567254302615,0.0007150036829667907,0.0026909382183174144,0.029036270167900436,8.468469467195328,0.04059706126371406,6.364544833410354,0.028582973184964264,0.1608946667876575,0.0006482897750483453,-8.656425544132455,0.09242571168042757
